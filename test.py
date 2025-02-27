@@ -10,7 +10,7 @@ from langchain_core.messages import HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Manually set Google API Key
-GOOGLE_API_KEY = "AIzaSyDR6iX-Qu_eXvXYUUHG95cSF74msqoQzYg"
+GOOGLE_API_KEY = ""
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY  
 
 class CowDetectionProcessor:
